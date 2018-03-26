@@ -7,20 +7,37 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		284D40CF2068929E0067781E /* Modbus.swift in Sources */ = {isa = PBXBuildFile; fileRef = 284D40CE2068929E0067781E /* Modbus.swift */; };
+		284D40FA206893190067781E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 284D40F9206893190067781E /* ViewController.swift */; };
+		28E2245120688E6400573AFB /* modbus-data.c in Sources */ = {isa = PBXBuildFile; fileRef = 28E2244720688E6400573AFB /* modbus-data.c */; };
+		28E2245220688E6400573AFB /* modbus.c in Sources */ = {isa = PBXBuildFile; fileRef = 28E2244820688E6400573AFB /* modbus.c */; };
+		28E2245320688E6400573AFB /* modbus-tcp.c in Sources */ = {isa = PBXBuildFile; fileRef = 28E2244920688E6400573AFB /* modbus-tcp.c */; };
+		28E2245420688E6400573AFB /* modbus-rtu.c in Sources */ = {isa = PBXBuildFile; fileRef = 28E2244C20688E6400573AFB /* modbus-rtu.c */; };
+		28E2245920688F3B00573AFB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 28E2245720688F3B00573AFB /* Main.storyboard */; };
 		28E2A42D205793E200AC309C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28E2A42C205793E200AC309C /* AppDelegate.swift */; };
-		28E2A42F205793E200AC309C /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28E2A42E205793E200AC309C /* FirstViewController.swift */; };
-		28E2A431205793E200AC309C /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28E2A430205793E200AC309C /* SecondViewController.swift */; };
-		28E2A434205793E200AC309C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 28E2A432205793E200AC309C /* Main.storyboard */; };
 		28E2A436205793E200AC309C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 28E2A435205793E200AC309C /* Assets.xcassets */; };
 		28E2A439205793E200AC309C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 28E2A437205793E200AC309C /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		284D40CE2068929E0067781E /* Modbus.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Modbus.swift; sourceTree = "<group>"; };
+		284D40F9206893190067781E /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		284D40FF206895290067781E /* SmartHome-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SmartHome-Bridging-Header.h"; sourceTree = "<group>"; };
+		28E2244520688E6400573AFB /* modbus-private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "modbus-private.h"; sourceTree = "<group>"; };
+		28E2244620688E6400573AFB /* config.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = config.h; sourceTree = "<group>"; };
+		28E2244720688E6400573AFB /* modbus-data.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = "modbus-data.c"; sourceTree = "<group>"; };
+		28E2244820688E6400573AFB /* modbus.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = modbus.c; sourceTree = "<group>"; };
+		28E2244920688E6400573AFB /* modbus-tcp.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = "modbus-tcp.c"; sourceTree = "<group>"; };
+		28E2244A20688E6400573AFB /* modbus-rtu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "modbus-rtu.h"; sourceTree = "<group>"; };
+		28E2244B20688E6400573AFB /* modbus-version.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "modbus-version.h"; sourceTree = "<group>"; };
+		28E2244C20688E6400573AFB /* modbus-rtu.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = "modbus-rtu.c"; sourceTree = "<group>"; };
+		28E2244D20688E6400573AFB /* modbus-tcp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "modbus-tcp.h"; sourceTree = "<group>"; };
+		28E2244E20688E6400573AFB /* modbus.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = modbus.h; sourceTree = "<group>"; };
+		28E2244F20688E6400573AFB /* modbus-tcp-private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "modbus-tcp-private.h"; sourceTree = "<group>"; };
+		28E2245020688E6400573AFB /* modbus-rtu-private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "modbus-rtu-private.h"; sourceTree = "<group>"; };
+		28E2245820688F3B00573AFB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		28E2A429205793E200AC309C /* SmartHome.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SmartHome.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		28E2A42C205793E200AC309C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		28E2A42E205793E200AC309C /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
-		28E2A430205793E200AC309C /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
-		28E2A433205793E200AC309C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		28E2A435205793E200AC309C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		28E2A438205793E200AC309C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		28E2A43A205793E200AC309C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -37,6 +54,25 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		28E2244420688E6400573AFB /* libmodbus */ = {
+			isa = PBXGroup;
+			children = (
+				28E2244520688E6400573AFB /* modbus-private.h */,
+				28E2244620688E6400573AFB /* config.h */,
+				28E2244720688E6400573AFB /* modbus-data.c */,
+				28E2244820688E6400573AFB /* modbus.c */,
+				28E2244920688E6400573AFB /* modbus-tcp.c */,
+				28E2244A20688E6400573AFB /* modbus-rtu.h */,
+				28E2244B20688E6400573AFB /* modbus-version.h */,
+				28E2244C20688E6400573AFB /* modbus-rtu.c */,
+				28E2244D20688E6400573AFB /* modbus-tcp.h */,
+				28E2244E20688E6400573AFB /* modbus.h */,
+				28E2244F20688E6400573AFB /* modbus-tcp-private.h */,
+				28E2245020688E6400573AFB /* modbus-rtu-private.h */,
+			);
+			path = libmodbus;
+			sourceTree = "<group>";
+		};
 		28E2A420205793E200AC309C = {
 			isa = PBXGroup;
 			children = (
@@ -56,13 +92,15 @@
 		28E2A42B205793E200AC309C /* SmartHome */ = {
 			isa = PBXGroup;
 			children = (
-				28E2A42C205793E200AC309C /* AppDelegate.swift */,
-				28E2A42E205793E200AC309C /* FirstViewController.swift */,
-				28E2A430205793E200AC309C /* SecondViewController.swift */,
-				28E2A432205793E200AC309C /* Main.storyboard */,
 				28E2A435205793E200AC309C /* Assets.xcassets */,
+				284D40FF206895290067781E /* SmartHome-Bridging-Header.h */,
+				28E2A42C205793E200AC309C /* AppDelegate.swift */,
+				284D40F9206893190067781E /* ViewController.swift */,
+				284D40CE2068929E0067781E /* Modbus.swift */,
 				28E2A437205793E200AC309C /* LaunchScreen.storyboard */,
+				28E2245720688F3B00573AFB /* Main.storyboard */,
 				28E2A43A205793E200AC309C /* Info.plist */,
+				28E2244420688E6400573AFB /* libmodbus */,
 			);
 			path = SmartHome;
 			sourceTree = "<group>";
@@ -128,7 +166,7 @@
 			files = (
 				28E2A439205793E200AC309C /* LaunchScreen.storyboard in Resources */,
 				28E2A436205793E200AC309C /* Assets.xcassets in Resources */,
-				28E2A434205793E200AC309C /* Main.storyboard in Resources */,
+				28E2245920688F3B00573AFB /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -139,19 +177,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				28E2A431205793E200AC309C /* SecondViewController.swift in Sources */,
+				284D40CF2068929E0067781E /* Modbus.swift in Sources */,
+				28E2245320688E6400573AFB /* modbus-tcp.c in Sources */,
+				28E2245220688E6400573AFB /* modbus.c in Sources */,
+				28E2245120688E6400573AFB /* modbus-data.c in Sources */,
+				284D40FA206893190067781E /* ViewController.swift in Sources */,
 				28E2A42D205793E200AC309C /* AppDelegate.swift in Sources */,
-				28E2A42F205793E200AC309C /* FirstViewController.swift in Sources */,
+				28E2245420688E6400573AFB /* modbus-rtu.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		28E2A432205793E200AC309C /* Main.storyboard */ = {
+		28E2245720688F3B00573AFB /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				28E2A433205793E200AC309C /* Base */,
+				28E2245820688F3B00573AFB /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -284,6 +326,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.zyeasy.SmartHome;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "SmartHome/SmartHome-Bridging-Header.h";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -299,6 +342,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.zyeasy.SmartHome;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "SmartHome/SmartHome-Bridging-Header.h";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
